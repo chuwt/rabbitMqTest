@@ -1,0 +1,2 @@
+rabbitmq:
+  url: "amqp://user:password@103.93.76.152:5672/"
