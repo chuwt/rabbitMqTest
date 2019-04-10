@@ -1,6 +1,79 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "Pc2ORQp+VY3Un/dkh4QwLC7R6lE=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005",
+			"revisionTime": "2018-08-15T10:47:33Z"
+		},
+		{
+			"checksumSHA1": "GAO2Smbo/BR3lLI9EdB6udjaeME=",
+			"path": "github.com/jinzhu/configor",
+			"revision": "4edaf76fe18865e36de734d887f4c01bd05707af",
+			"revisionTime": "2018-06-14T02:44:15Z"
+		},
+		{
+			"checksumSHA1": "epQZICCcThx99PQo7m/HuWN5kpQ=",
+			"path": "github.com/rs/zerolog",
+			"revision": "c482b206231df1662b9e1895a9ba17a88b11220c",
+			"revisionTime": "2018-12-07T17:59:01Z"
+		},
+		{
+			"checksumSHA1": "73NzoKIiJU6h4v6hg9eM4t7V/zw=",
+			"path": "github.com/rs/zerolog/internal/cbor",
+			"revision": "c482b206231df1662b9e1895a9ba17a88b11220c",
+			"revisionTime": "2018-12-07T17:59:01Z"
+		},
+		{
+			"checksumSHA1": "e0b96rsdqg3fNtCDQOdZA4M+MNo=",
+			"path": "github.com/rs/zerolog/internal/json",
+			"revision": "c482b206231df1662b9e1895a9ba17a88b11220c",
+			"revisionTime": "2018-12-07T17:59:01Z"
+		},
+		{
+			"checksumSHA1": "GrCvxT3h3vAVIwGe8bFAilXjgVA=",
+			"path": "github.com/rs/zerolog/log",
+			"revision": "c482b206231df1662b9e1895a9ba17a88b11220c",
+			"revisionTime": "2018-12-07T17:59:01Z"
+		},
+		{
+			"checksumSHA1": "2wk7pDmxi7LoAHtIQTDEWt9F8/A=",
+			"path": "github.com/streadway/amqp",
+			"revision": "a314942b2fd9dde7a3f70ba3f1062848ce6eb392",
+			"revisionTime": "2018-12-05T11:43:30Z"
+		},
+		{
+			"checksumSHA1": "ZSWoOPUNRr5+3dhkLK3C4cZAQPk=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		},
+		{
+			"checksumSHA1": "mowUSe22AvyWAeh/n6JDMUNmtMw=",
+			"path": "rabbitMqTest/src",
+			"revision": "06ec26bba6f401c77e7294f7e03786648a79bac7",
+			"revisionTime": "2019-04-10T10:58:10Z"
+		},
+		{
+			"checksumSHA1": "qBNuORF7YZpU+meIM0HudDti7Kc=",
+			"path": "rabbitMqTest/src/config",
+			"revision": "06ec26bba6f401c77e7294f7e03786648a79bac7",
+			"revisionTime": "2019-04-10T10:58:10Z"
+		},
+		{
+			"checksumSHA1": "UbxTTQdkczOtMXjX7csoCkMiE6I=",
+			"path": "rabbitMqTest/src/mqService",
+			"revision": "06ec26bba6f401c77e7294f7e03786648a79bac7",
+			"revisionTime": "2019-04-10T10:58:10Z"
+		},
+		{
+			"checksumSHA1": "Kx56X0AUAlQCRgNsYlMOjMG5DT4=",
+			"path": "rabbitMqTest/src/mqService/consumer",
+			"revision": "06ec26bba6f401c77e7294f7e03786648a79bac7",
+			"revisionTime": "2019-04-10T10:58:10Z"
+		}
+	],
 	"rootPath": "rabbitMqTest"
 }
