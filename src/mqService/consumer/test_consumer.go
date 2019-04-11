@@ -34,7 +34,7 @@ func (c *TestConsumer) Exchange() string {
 }
 
 func (c *TestConsumer) OnReceive(msg []byte, number int) bool {
-    fmt.Println("receiver a message: " + string(msg))
+    fmt.Println(fmt.Sprintf("my number is %d, i receiver a message: %s", number, string(msg)))
     return true
 }
 

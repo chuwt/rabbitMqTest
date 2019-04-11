@@ -19,7 +19,7 @@ type RMQ struct {
 
 func init() {
     RabbitMq = &RMQ{}
-    //RabbitMq.InitMq()
+    RabbitMq.InitMq()
 }
 
 func (r *RMQ) InitMq() {
@@ -162,7 +162,9 @@ func (r *RMQ) Publish(msg, exchangeName, routerKey string) error {
 
 func (r *RMQ) RunConsumer() {
     // 创建channel
-    r.NewChannel(config.Config.RabbitMQ.URL)
+    if r.Channel == nil {
+        r.NewChannel(config.Config.RabbitMQ.URL)
+    }
     log.Info().Msg("start run consumers ... ")
     defer r.Channel.Close()
     for _, receiver := range r.receivers {
